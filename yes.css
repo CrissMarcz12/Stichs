@@ -199,3 +199,11 @@ h1{
         opacity: 0;
     }
 }
+
+/* autoria */
+
+.autoria{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

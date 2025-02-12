@@ -77,6 +77,14 @@ h1{
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
+/* autoria */
 
+.autoria{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 0.8rem;
+    color: #666;
+}
 
 
