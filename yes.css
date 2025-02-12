@@ -4,7 +4,7 @@ body{
     align-items: center;
     height: 100vh;
     margin: 0;
-    background: linear-gradient(135deg, #4cd137, #44bd32);
+    background: linear-gradient(135deg, #edc1e5, #cba9ce);
     font-family: 'Poppins', sans-serif; 
     animation: gradientAnimation 10s ease infinite;
     overflow: hidden;
