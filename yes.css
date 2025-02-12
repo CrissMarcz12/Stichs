@@ -1,0 +1,40 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.container{
+    text-align: center;
+}
+
+h1{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: red;
+    transition: color 0.3s ease;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1s ease;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+}
+
+.gif-container{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}

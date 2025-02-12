@@ -1,0 +1,67 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    flex-direction: column;
+}
+
+.container{
+    text-align: center;
+}
+
+h1{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: red;
+}
+
+.buttons{
+    margin-top: 50px;
+}
+
+.yes-btn{
+    font-size: 1.5rem;
+    padding: 15px 35px;
+    margin-right: 20px;
+    background-color: rgb(89, 255, 47);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.yes-btn:hover{
+    background-color: pink;
+    color: white;
+}
+
+.no-btn{
+    font-size: 1.5rem;
+    padding: 15px 35px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.no-btn:hover{
+    background-color: rgb(22, 150, 248);
+    color: white;
+}
+
+.image-container{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+
+
+
