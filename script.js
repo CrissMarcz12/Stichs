@@ -7,7 +7,7 @@ const messages = [
 "Si dices que no dejo de comer",
 "Estare tite unu",
 "Esta bienno insistire :c",
-"Es broma, pero dices que si?",
+"Es broma, pero dices que siii?",
 ]
 
 let mesaggeindex = 0;
