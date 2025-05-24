@@ -1,13 +1,13 @@
 const messages = [
-"Estas Segura?",
-"Realmente segurta?",
-"Estas bien?",
+"Estas Segura?(haz click al otro boton)",
+"Realmente segurita?",
+"Plisss",
 "Por favoooor",
-"!Piensalo bien!",
-"Si dices que no me pondre mal :(",
-"Estare muy triste :(",
-"Esta bien, dejare de preguntar",
-"Es broma, di si por favor! 😍",
+"Piensalo bien amor",
+"Si dices que no dejo de comer",
+"Estare tite unu",
+"Esta bienno insistire :c",
+"Es broma, pero dices que si?",
 ]
 
 let mesaggeindex = 0;

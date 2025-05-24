@@ -9,32 +9,38 @@
 </head>
 <body>
     <div class="hearts" id="hearts"></div>
+
     <div class="container">
-        <h1>¡Sabía que dirías que sí! 💖</h1>
+        <h1>Sabía que dirías que sí, sin dudar amolllll 💖</h1>
+        <h1>Te espero viernes mi niñaaaaaa 💕</h1>
         <div class="gif-container">
-            <img src="https://i.pinimg.com/originals/98/68/f5/9868f557c0c3049734ea8164d38b67c9.gif" alt="gif">
+            <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDFyN3N5cXl1b21xdjZuZnI3eTRnczgwOHQwdG9xbWc0Ymx3enQwMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/auGFCmg6rM0eI/giphy.gif" alt="gif">
         </div>
     </div>
-    <!-- autoria -->
-    <div class="autoria">
-        <p>Hecho por <a href="https://github.com/Isnotcristhianr">Isnotcristhianr</a></p>
-    </div>
+
+
     <script>
-        // Crear corazones cayendo
         function createHeart() {
             const heart = document.createElement('div');
             heart.className = 'heart';
             heart.style.left = Math.random() * 100 + 'vw';
             heart.style.animationDuration = Math.random() * 3 + 2 + 's';
             document.getElementById('hearts').appendChild(heart);
-            
+
             setTimeout(() => {
                 heart.remove();
             }, 5000);
         }
 
-        // Crear corazones cada 300ms
         setInterval(createHeart, 300);
     </script>
 </body>
+<footer>
+        <div class="love-outside">
+        <h1>Te amooooooo muchooooo mi niñaaaaa 💖</h1>
+    </div>
+
+</footer>
+
+
 </html>
