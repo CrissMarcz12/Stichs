@@ -98,6 +98,36 @@ body {
     margin: 1rem;
     padding: clamp(1rem, 3vw, 3rem);
 }
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  flex: 1; /* Esto hace que el contenedor ocupe todo el espacio disponible */
+  text-align: center;
+  padding: 20px;
+}
+
+footer {
+  background-color: #f8bbd0; /* Color rosa claro, cambia si quieres */
+  text-align: center;
+  padding: 15px 10px;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #880e4f;
+  /* Para que se mantenga al pie */
+  flex-shrink: 0;
+}
+
+.love-outside h1 {
+  margin: 0;
+}
 
 h1{
     font-size: clamp(1.5rem, 5vw, 2.5rem);
